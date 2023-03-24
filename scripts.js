@@ -23,9 +23,9 @@ function handleCalculation(event) {
   const operator = document.querySelector("input[name='operator']:checked").value;
 
   let result;
-  if (operator === "add") {
+  if (operator === "Yes") {
     result = add(number1, number2);
-  } else if (operator === "subtract") {
+  } else if (operator === "No") {
     result = subtract(number1, number2);
   } else if (operator === "multiply") {
     result = multiply(number1, number2);
