@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Software development language suggester form</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
 </head>
 <body>
-  
+  <h1>Language form</h1>
+  <form id="calculator">
+    <label for="input1">How many years of software development experience do you have? If you have less than 1 year of experience, please put 0.</label>
+    <input id="input1" type="text">
+    <p><label for="input2">On a scale of 1 to 10, 1 being miserable and 10 being ecstatic, how much do you like learning new things? </label>
+    <input id="input2" type="text"></p>
+
+    <label>
+      <input type="radio" name="operator" value="add">
+      add
+    </label>
+    <label>
+      <input type="radio" name="operator" value="subtract">
+      subtract
+    </label>
+    <label>
+      <input type="radio" name="operator" value="multiply">
+      multiply
+    </label>
+    <label>
+      <input type="radio" name="operator" value="divide">
+      divide
+    </label>
+
+    <button type="submit" class="btn">Go!</button>
+  </form>
+
+  <h2>Results</h2>
+  <p id="output"></p>
 </body>
 </html>
