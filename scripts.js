@@ -27,7 +27,6 @@ function handleCalculation(event) {
   }
 
   document.getElementById("output").innerText = result;
-}
 
 window.addEventListener("load", function() {
   const form = document.getElementById("calculator");
