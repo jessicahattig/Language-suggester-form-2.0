@@ -5,47 +5,60 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="scripts.js"></script></link>
 </head>
+
 <body>
   <header>
-  <h1>Survey to help you determine which software language to learn next!</h1>
+  <h1>Coding Language Suggester</h1>
 </header>
-
-<div class=""survey">
+<div class="survey">
   <div class="q1">
     <h2>How many years have you been programing?</h2>
-    <ul class="option">
+    <ul class="option1">
   <li>0-6 months</li>
   <li>1-2 years</li>
   <li>2-3 years</li>
-  <li>3+ years</li>
+  <li>4+ years</li>
   </ul>
   </div>
 
+  <div class="q2">
+    <h2>How many coding languages do you already know?</h2>
+    <ul class="option2">
+  <li>0</li>
+  <li>1-2</li>
+  <li>2-5</li>
+  <li>5+</li>
+    </ul>
+  </div>
 
+  <div class="q3">
+    <h2>Are you learning to code to...</h2>
+    <ul class="option3">
+  <li>become a professional software developer.</li>
+  <li>get better at a hobby.</li>
+  <li>add skills to current profession.</li>
+  <li>become a freelancer.</li>
+    </ul>
+  </div>
+  
+  <div class="q4">
+    <h2>How much study time do you want to commit per class?</h2>
+    <ul class="option4">
+  <li>5 hours</li>
+  <li>20 hours</li>
+  <li>100 hours</li>
+  <li>More than 200 hours</li>
+    </ul>
+  </div> 
 
-  <form id="calculator">
-    <label for="input1">How many years of software development experience do you have? If you have less than 1 year of experience, please put 0.</label>
-    <input id="input1" type="text">
-    <p><label for="input2">On a scale of 1 to 10, 1 being miserable and 10 being ecstatic, how much do you like learning new things? </label>
-    <input id="input2" type="text"></p>
-    <p><label for="input3">Are you good at math? Type 1 for "yes" and type 2 for "no". </label>
-      <input id="input3" type="text"></p>
-    <p><label for="input4">How old are you? </label>
-      <input id="input4" type="text"></p>  
-
-    <label>
-      Are you ready?
-      <input type="radio" name="operator" value="add">
-      Yes
-    </label>
-    <label>
-      <input type="radio" name="operator" value="subtract">
-      No
-    </label>
-    <button type="submit" class="btn">Go!</button>
-  </form>
-
-  <h2>Results</h2>
-  <p id="output"></p>
+  <div class="q5">
+    <h2>What level is your education?</h2>
+    <ul class="option5">
+  <li>High school</li>
+  <li>Some college</li>
+  <li>Bachelor</li>
+  <li>Master or above</li>
+    </ul>
+  </div>
 </body>
 </html>
