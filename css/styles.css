@@ -1,3 +1,6 @@
+.hidden {
+  display: none;
+}
 h1 {
   color: #ff00c8;
   text-align: center;
@@ -5,3 +8,4 @@ h1 {
 body {
   background-color: rgb(217, 127, 255);
 }
+
