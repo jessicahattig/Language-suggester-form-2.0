@@ -13,14 +13,14 @@
 <div class="survey">
   <form id="form">
     <p><label for="firstQ">How Many years have you been programing? If it's less than 1 year, please put 0.</label>
-    <input id="firstInput" type="number" placeholder= "Years"></p>
+    <input id="q1" type="number" placeholder= "Years"></p>
 
     <p><label for="secondQ">How many coding languages do you already know?</label>
-    <input id="secondInput" type="number" placeholder="0, 1, 2, 3, 4, ect."></p>
+    <input id="q2" type="number" placeholder="0, 1, 2, 3, 4, ect."></p>
   
     <p><label for="thirdQ">Are you learning to code to....</label>
       <div class="thirdDropdown">
-        <select id="thirdDropdown">
+        <select id="q3">
           <option value="blank"> </option>
           <option value="skills">to gain valuable skills for my current profession.</option>
           <option value="transition.">to change careers.</option>
@@ -30,7 +30,7 @@
 
     <p><label for="fourthQ">How many hours of studying per week can you commit to learning?</label> 
       <div class="fourthDropdown">
-        <select id="fourthDropdown">
+        <select id="q4">
           <option value="blank"> </option>
           <option value="toFive">0 to 5 hours per week</option>
           <option value="sixToten">6 to 10 hours per week.</option>
@@ -41,13 +41,13 @@
 
     <p><label for="fifthQ">Do you enjoy working collaboratively with others?</label>
       <div class="fifthDropdown">
-        <select id="fifthDropdown">
+        <select id="q5">
         <option value="blank"> </option>
         <option value="yes">Yes.</option>
         <option value="no">No.</option>
       </div></select>
     
-    <p><button type="submit">Submit!</button></p>
+<p><button onclick="surveyResults()">Submit!</button></p>
   </form>
 </div>
   
@@ -58,15 +58,4 @@
   
   </form>
 </body>
-<script>
-var form = document.getElementById('form')
-
-form.addEventListener('submit', function(event){
-  event.preventDefault()
-
-  var firstInput = document.getElementById('firstInput').value
-
-  console.log(firstInput) // checking to see if this works
-})
-</script>
 </html>
