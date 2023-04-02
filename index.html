@@ -13,10 +13,10 @@
 <div class="survey">
   <form id="form">
     <p><label for="firstQ">How Many years have you been programing? If it's less than 1 year, please put 0.</label>
-    <input id="first-input" type="number" placeholder= "Years"></p>
+    <input id="firstInput" type="number" placeholder= "Years"></p>
 
     <p><label for="secondQ">How many coding languages do you already know?</label>
-    <input id="second-input" type="number" placeholder="1, 2, 3, 4, ect."></p>
+    <input id="secondInput" type="number" placeholder="0, 1, 2, 3, 4, ect."></p>
   
     <p><label for="thirdQ">Are you learning to code to....</label>
       <div class="thirdDropdown">
@@ -47,15 +47,26 @@
         <option value="no">No.</option>
       </div></select>
     
-    <button type="submit">Submit!</button>
+    <p><button type="submit">Submit!</button></p>
   </form>
 </div>
   
   <div id="output" class="hidden"
-  <h2>Which coding language should you learn!</h2>
+<h2>Which coding language should you learn!</h2>
     <p><span id="results">" "</span></p>
   </div>
+  
   </form>
 </body>
+<script>
+var form = document.getElementById('form')
 
+form.addEventListener('submit', function(event){
+  event.preventDefault()
+
+  var firstInput = document.getElementById('firstInput').value
+
+  console.log(firstInput) // checking to see if this works
+})
+</script>
 </html>
