@@ -1,10 +1,15 @@
-function surveyResults(){
-  let firstInput = document.querySelector("#firstInput");
-  let secondInput = document.querySelector("#secondInput");
-  let thirdInput = document.querySelector("#thirdInput");
-  let forthInput = document.querySelector("#forthInput");
-  let fifthInput = document.querySelector("#fifthInput");
-  let results = documentt.querySelector("#surveyResults");
+window.onload = function() {
+  const form = document.querySelector("form");
+  form.onsubmit = function(event) {
+    event.preventDefault();
 
-  surveyResults.innerHTML = "The programming language you should learn is...." 
+function surveyResults(){
+  let firstInput = document.getElementByID("#firstInput");
+  let secondInput = document.getElementByID("#secondInput");
+  let thirdInput = document.getElementByID("#thirdInput");
+  let forthInput = document.getElementByID("#forthInput");
+  let fifthInput = document.getElementByID("#fifthInput");
+  let results = ddocument.getElementByID("#surveyResults");
 }
+};
+};
