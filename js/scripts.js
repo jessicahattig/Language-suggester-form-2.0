@@ -1,15 +1,29 @@
 window.onload = function() {
-  const form = document.querySelector("form");
-  form.onsubmit = function(event) {
+  const languageForm = document.querySelector("languageForm");
+  languageForm.onsubmit = function(event) {
     event.preventDefault();
+  
 
-function surveyResults(){
-  let firstInput = document.getElementByID("#firstInput");
-  let secondInput = document.getElementByID("#secondInput");
-  let thirdInput = document.getElementByID("#thirdInput");
-  let forthInput = document.getElementByID("#forthInput");
-  let fifthInput = document.getElementByID("#fifthInput");
-  let results = ddocument.getElementByID("#surveyResults");
-}
-};
-};
+    //event for when button is clicked
+    languageForm.addEventListner('click',(event))
+
+
+
+
+
+
+    let jsLang= document.getElementById("JavaScript");
+    jsLang.setAttribute("class", "hidden");
+    let pythonLang = document.getElementById("Python");
+    pythonLang.setAttribute("class", "hidden");
+    let rubyLang = document.getElementById("Ruby");
+    rubyLang.setAttribute("class", "hidden");
+
+
+
+    //Value for years experience
+    const yearsExp = parseInt(document.querySelector("#firstInput"))
+    if (yearsExp <=5){
+      jsLang.removeAttribute ("class");
+    }
+  };
