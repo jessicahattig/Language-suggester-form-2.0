@@ -1,7 +1,8 @@
 window.onload = function() {
-  const languageForm = document.querySelector("languageForm");
-  languageForm.onsubmit = function(event) {
-    event.preventDefault();
+  // event handler for the form submissions
+  let languageForm = document.querySelector("languageForm");
+  languageForm.onsubmit = function(e) {
+    e.preventDefault();
   
 
     //event for when button is clicked
@@ -19,6 +20,12 @@ window.onload = function() {
     let rubyLang = document.getElementById("Ruby");
     rubyLang.setAttribute("class", "hidden");
 
+
+function surveyResults() {
+  if ((document.getElementById()))
+
+
+}
 
 
     //Value for years experience
