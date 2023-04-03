@@ -1,14 +1,14 @@
-// Variables - languages
+//Business Logic - languages output 
 const JavaScript = "JavaScript!"
 const Python = "Python!"
 const Ruby = "Ruby!"
 
 // Getting the value from each question input.
-const firstInput = document.getElementById("firstInput").value;
-const secondInput = document.getElementById("secondInput").value;
-const thirdInput = document.getElementById("thirdInput").value;
-const fourthInput = document.getElementById("fourthInput").value;
-const fifthInput = document.getElementById("fifthInput").value;
+const firstAnswer = document.getElementById("firstInput").value;
+const secondAnswer = document.getElementById("secondInput").value;
+const thirdAnswer = document.getElementById("thirdInput").value;
+const fourthAnswer = document.getElementById("fourthInput").value;
+const fifthAnswer = document.getElementById("fifthInput").value;
 
 //function
 function result(event) {
