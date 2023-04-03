@@ -14,4 +14,5 @@ const fifthInput = document.getElementById("fifthInput").value;
 function result(event) {
   let finalResult = document.getElementById("finalResult"); 
   finalResult.removeAttribute("class")
+  event.preventDefault();
 } 
