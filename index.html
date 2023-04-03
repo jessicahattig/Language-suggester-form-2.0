@@ -11,42 +11,21 @@
   <h1>Interested in coding? Take this survey to discover which language you should learn!</h1>
 </header>
 <div class="survey">
-  <form id="languageForm">
-    <p><label for="firstInput">How Many years have you been programing? If it's less than 1 year, please put 0.</label>
-    <input id="firstInput" type="number" placeholder= "Years"></p>
+  <form id="form">
+    <p><label for="firstInput">Do you like to problem solve?</label>
+    <input id="firstInput" type="text" placeholder= "Yes or No" required></p>
 
-    <p><label for="secondInput">How many coding languages do you already know?</label>
-    <input id="secondInput" type="number" placeholder="0, 1, 2, 3, 4, ect." ></p>
+    <p><label for="secondInput">Do you like working with others?</label>
+    <input id="secondInput" type="text" placeholder="Yes or No" required></p>
   
-    <p><label for="thirdInput">Are you learning to code to....</label>
-      <div class="thirdDropdown">
-        <select id="thirdInput">
-          <option value="blank"> </option>
-          <option value="skills">to gain valuable skills for my current profession.</option>
-          <option value="transition.">to change careers.</option>
-          <option value="fun">for fun.</option>
-      </div></select>
-    </p>
+    <p><label for="thirdInput">Do you like working on your own?</label>
+      <input id="thirdInput" type="text" placeholder="Yes or No" required></p>
 
-    <p><label for="fourthInput">How many hours of studying per week can you commit to learning?</label> 
-      <div class="fourthDropdown">
-        <select id="fourthInput">
-          <option value="blank"> </option>
-          <option value="toFive">0 to 5 hours per week</option>
-          <option value="sixToten">6 to 10 hours per week.</option>
-          <option value="elevenTotwenty">11 to 20 hours per week</option>
-          <option value="twentyonePlus">21+ hours per week.</option>
-      </div></select>
-    </p>
+      <p><label for="forthInput">Do you like studying?</label>
+        <input id="forthInput" type="text" placeholder="Yes or No" required></p>
 
-    <p><label for="fifthInput">Do you enjoy working collaboratively with others?</label></p>
-      <div class="fifthDropdown">
-        <select id="fifthInput">
-        <option value="blank"> </option>
-        <option value="yes">Yes.</option>
-        <option value="no">No.</option>
-        </select>
-      </div>
+    <p><label for="fifthInput">Do you like math?</label>
+      <input id="fifthInput" type="text" placeholder="Yes or No" required></p>
     
 <p><button id="button" onclick="surveyResults()">Submit</button></p>
 
