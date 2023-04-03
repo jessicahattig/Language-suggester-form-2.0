@@ -1,36 +1,14 @@
 window.onload = function() {
-  // event handler for the form submissions
+  // Event handler for the form submissions
   let languageForm = document.querySelector("languageForm");
   languageForm.onsubmit = function(e) {
     e.preventDefault();
-  
+  }
+  // Getting the value from each form input.
+  //
+  const firstInput = document.getElementById("firstInput").value;
+  const secondInput = document.getElementById("secondInput").value;
+  const thirdInput = document.getElementById("thirdInput").value;
+  const forthInput = document.getElementById("fourthInput").value;
+  const fifthInput = document.getElementById("fifthInput").value;
 
-    //event for when button is clicked
-    languageForm.addEventListner('click',(event))
-
-
-
-
-
-
-    let jsLang= document.getElementById("JavaScript");
-    jsLang.setAttribute("class", "hidden");
-    let pythonLang = document.getElementById("Python");
-    pythonLang.setAttribute("class", "hidden");
-    let rubyLang = document.getElementById("Ruby");
-    rubyLang.setAttribute("class", "hidden");
-
-
-function surveyResults() {
-  if ((document.getElementById()))
-
-
-}
-
-
-    //Value for years experience
-    const yearsExp = parseInt(document.querySelector("#firstInput"))
-    if (yearsExp <=5){
-      jsLang.removeAttribute ("class");
-    }
-  };
