@@ -9,8 +9,8 @@ const secondInput = document.getElementById("secondInput").value;
 const thirdInput = document.getElementById("thirdInput").value;
 const fourthInput = document.getElementById("fourthInput").value;
 const fifthInput = document.getElementById("fifthInput").value;
-  };
-};
 
-  // Hidding results before form is submitted
-  
+//function
+function result(event) {
+  let finalResult = document.getElementById("finalResult")
+} 
