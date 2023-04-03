@@ -6,15 +6,15 @@ window.onload = function() {
     event.preventDefault();
     console.log("submitting form successfully");
 
+  // Variables
+  
+
   // Getting the value from each form input.
     const firstInput = document.getElementById("firstInput").value;
     const secondInput = document.getElementById("secondInput").value;
     const thirdInput = document.getElementById("thirdInput").value;
-    const forthInput = document.getElementById("fourthInput").value;
+    const fourthInput = document.getElementById("fourthInput").value;
     const fifthInput = document.getElementById("fifthInput").value;
-
-    function surveyResults =
-    
   };
 };
 
