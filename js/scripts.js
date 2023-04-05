@@ -3,18 +3,17 @@ const JavaScript = "JavaScript!"
 const Python = "Python!"
 const Ruby = "Ruby!"
 
-// Getting the value from each question input.
+//function
+function result(event) {
+  let finalResult = document.getElementById("bigreveal"); 
+  finalResult.removeAttribute("class")
+  event.preventDefault(); // first thing that happens
+// variables from users after the first thing happens.("firstInput").value;
 const firstAnswer = document.getElementById("firstInput").value;
 const secondAnswer = document.getElementById("secondInput").value;
 const thirdAnswer = document.getElementById("thirdInput").value;
 const fourthAnswer = document.getElementById("fourthInput").value;
 const fifthAnswer = document.getElementById("fifthInput").value;
-
-//function
-function result(event) {
-  let finalResult = document.getElementById("finalResult"); 
-  finalResult.removeAttribute("class")
-  event.preventDefault();
 //branching logic for results, boolean style
 let result;
 if (firstAnswer === "Yes"){
@@ -34,10 +33,16 @@ if (firstAnswer === "Yes"){
 } else if (thirdAnswer==="No"){
   result= Python;
 } else if (fourthAnswer==="No"){
-  result = Javascript;
-} else if (fifthAnswer==="No"){
+  result = JavaScript;
+} else {
   result=JavaScript;
 }
 
-document.getElementById("finalResult").innerText = " ";
+document.getElementById("result").innerText =result;
 }
+
+//UI Logic - in order to have buisness logic displayed, need to call on UI logic to load. (This is how user input is grabbed.)
+window.addEventListener("load", function(){
+  const form = document.getElementById("form")
+  form.addEventListener("submit",result)
+})
