@@ -1,7 +1,7 @@
 
 const JavaScript = "JavaScript! JavaScript is one main facet technology of the World Wide Web, alongside HTML and CSS."
 const Python = "Python! Python was designed to emphasize code readability. It supports multiple programming paradigms, including structured, object-oriented and functional programming."
-const Ruby = "Ruby! Ruby is advance programming language which supports multiple programming paradigms. In Ruby, everything is an object, including primitive data types. "
+const Ruby = "Ruby! Ruby is an advance programming language which supports multiple programming paradigms. In Ruby, everything is an object, including primitive data types. "
 
 
 function result(event) {
