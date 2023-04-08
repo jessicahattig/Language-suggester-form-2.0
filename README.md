@@ -6,6 +6,8 @@
 
 ## Technologies Used
 
+* _JavaScript_
+* _Web API_
 * _HTML_
 * _CSS_
 * _VS Code_
