@@ -1,22 +1,21 @@
 
-const JavaScript = "JavaScript!"
-const Python = "Python!"
-const Ruby = "Ruby!"
+const JavaScript = "JavaScript! JavaScript is one main facet technology of the World Wide Web, alongside HTML and CSS."
+const Python = "Python! Python was designed to emphasize code readability. It supports multiple programming paradigms, including structured, object-oriented and functional programming."
+const Ruby = "Ruby! Ruby is advance programming language which supports multiple programming paradigms. In Ruby, everything is an object, including primitive data types. "
 
 
 function result(event) {
   let finalResult = document.getElementById("bigreveal"); 
   finalResult.removeAttribute("class")
-  event.preventDefault(); // first thing that happens
+  event.preventDefault();
 
-// variables from users after the first thing happens.("firstInput").value;
+
 const firstAnswer = document.getElementById("firstInput").value;
 const secondAnswer = document.getElementById("secondInput").value;
 const thirdAnswer = document.getElementById("thirdInput").value;
 const fourthAnswer = document.getElementById("fourthInput").value;
 const fifthAnswer = document.getElementById("fifthInput").value;
 
-//branching logic for results, boolean style
 let result;
 if (firstAnswer === "Yes"){
   result= Ruby;
@@ -43,8 +42,7 @@ if (firstAnswer === "Yes"){
 document.getElementById("result").innerText =result;
 }
 
-//UI Logic - in order to have buisness logic displayed, need to call on UI logic to load. (This is how user input is grabbed.)
 window.addEventListener("load", function(){
   const form = document.getElementById("form")
   form.addEventListener("submit",result)
-})
+});
