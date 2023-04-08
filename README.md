@@ -25,7 +25,7 @@ _This portfolio exhibits my proficiency in JavaScript and Web Browsers._
 * _Navigate to the directory titled "Portfolio-project"._
 * _Open the file "index.html" in your browser._
 
-[github pages need to add ](https://jessicahattig.github.io/Portfolio-project/)
+[GitHub Pages ](https://jessicahattig.github.io/Language-suggester-form-2.0/)
 
 ## Known Bugs
 
