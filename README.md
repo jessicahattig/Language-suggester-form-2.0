@@ -2,7 +2,7 @@
 
 #### By _**Jessica Hattig**_
 
-#### _Epicodus, Week 2: JavaScript and Web Browsers_
+#### _Epicodus, Week 2: Intro to JavaScript and Web Browsers_
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@
 
 ## Description
 
-_This portfolio exhibits my proficiency in JavaScript and Web Browsers._
+_This website is a programming language suggestor form in which users can answer the various survey questions and then get suggested a coding language to learn. This project exhibits my proficiency in introductory JavaScript and Web Browsers._
 
 ## Setup/Installation Requirements
 
