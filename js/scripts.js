@@ -1,19 +1,21 @@
-//Business Logic - languages output 
+
 const JavaScript = "JavaScript!"
 const Python = "Python!"
 const Ruby = "Ruby!"
 
-//function
+
 function result(event) {
   let finalResult = document.getElementById("bigreveal"); 
   finalResult.removeAttribute("class")
   event.preventDefault(); // first thing that happens
+
 // variables from users after the first thing happens.("firstInput").value;
 const firstAnswer = document.getElementById("firstInput").value;
 const secondAnswer = document.getElementById("secondInput").value;
 const thirdAnswer = document.getElementById("thirdInput").value;
 const fourthAnswer = document.getElementById("fourthInput").value;
 const fifthAnswer = document.getElementById("fifthInput").value;
+
 //branching logic for results, boolean style
 let result;
 if (firstAnswer === "Yes"){

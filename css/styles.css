@@ -6,6 +6,17 @@ h1 {
   text-align: center;
 }
 body {
-  background-color: rgb(217, 127, 255);
+  background-color: rgba(217, 127, 255, 0.496);
 }
 
+h2 {
+  color: purple;
+  text-align: center;
+}
+
+p{
+  color:rgb(79, 12, 141);
+  size: 20px;
+  font-size: 20px;
+
+}
